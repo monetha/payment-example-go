@@ -46,10 +46,12 @@ All examples are run with Test Customer and Merchant addresses. We've provided p
 | Merchant Address | [0x8c77F5BA864718f098F83114efEC7180649afB85](https://ropsten.etherscan.io/address/0x8c77F5BA864718f098F83114efEC7180649afB85) |
 | Customer Address | [0xdF8c3E2c8506F67705acB0a4dCa28Cf44934B511](https://ropsten.etherscan.io/address/0xdF8c3E2c8506F67705acB0a4dCa28Cf44934B511) |
 
-We are using Infura JSON RPC in the provided examples in order to execute transaction on a chain. Feel free to change `backendURL` variable to any JSON RPC node you want.
+We are using Infura.io JSON RPC in the provided examples in order to execute transaction on a chain. Feel free to change `backendURL` variable to any JSON RPC node you want.
 ```golang
 backendURL := "https://ropsten.infura.io/v3/9341cea07e634c21be9d5a5ccb892db5"
 ```
+
+**Note**: Currently all PaymentProcessor contract instances are provided by Monetha. Contact [team@monetha.io](mailto:team@monetha.io) in case if you would like to have your own instance deployed. 
 
 #### Example flow where Customer initiates the purchase
 
