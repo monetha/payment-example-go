@@ -12,9 +12,9 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 	eth "github.com/monetha/go-ethereum"
+	"github.com/monetha/payment-example/utils"
 	"github.com/monetha/payment-go-sdk/processor"
 	"github.com/monetha/payment-go-sdk/wallet"
-	"github.com/v1ruc/payment-example/utils"
 )
 
 func main() {

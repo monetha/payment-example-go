@@ -1,3 +1,11 @@
+- [Intro](#intro)
+- [Build & Run](#build--run)
+  - [Prerequisites](#prerequisites)
+  - [Build](#build)
+  - [Running examples](#running-examples)
+    - [Example flow where Customer initiates the purchase](#example-flow-where-customer-initiates-the-purchase)
+  - [Example flow where Merchant initiates the purchase](#example-flow-where-merchant-initiates-the-purchase)
+
 ## Intro
 
 This repository contains example of using [Monetha Payment Go SDK](https://github.com/monetha/payment-go-sdk). Examples show main capabilities of SDK in order to achieve a decentralized payment via Monetha Payment Gateway
@@ -51,7 +59,7 @@ We are using Infura.io JSON RPC in the provided examples in order to execute tra
 backendURL := "https://ropsten.infura.io/v3/7c0fc2888a824c62a3651fd446c8f989"
 ```
 
-**Note**: Currently all PaymentProcessor contract instances are provided by Monetha. Contact [team@monetha.io](mailto:team@monetha.io) in case if you would like to have your own instance deployed. 
+**Note**: Currently all PaymentProcessor contract instances are provided by Monetha. Contact [team@monetha.io](mailto:team@monetha.io) in case if you would like to have your own instance deployed.
 
 #### Example flow where Customer initiates the purchase
 

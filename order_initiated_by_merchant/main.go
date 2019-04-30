@@ -13,7 +13,7 @@ import (
 	eth "github.com/monetha/go-ethereum"
 	"github.com/monetha/payment-go-sdk/processor"
 	"github.com/monetha/payment-go-sdk/wallet"
-	"github.com/v1ruc/payment-example/utils"
+	"github.com/monetha/payment-example/utils"
 )
 
 func main() {
