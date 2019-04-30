@@ -59,7 +59,7 @@ backendURL := "https://ropsten.infura.io/v3/7c0fc2888a824c62a3651fd446c8f989"
 go run order_initiated_by_customer/main.go
 ```
 
-Short description of what is going on
+Step by step instructions on what is being achieved in the example
 
 - Customer initiates the order
 - Customer pays for the Order
@@ -73,7 +73,7 @@ Short description of what is going on
 go run order_initiated_by_merchant/main.go
 ```
 
-Short description of what is going on
+Step by step instructions on what is being achieved in the example
 
 - Merchant initiates the order and provides Customer with information to pay
 - Customer pays for the Order
