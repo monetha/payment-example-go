@@ -26,7 +26,7 @@ func main() {
 	var paymentProcessorContractAddress = "0x35D6708FD36DCb902adce5D9d6ABeB4838318554"
 
 	// backendURL JSON RPC url for communication with Ethereum blockchain
-	backendURL := "https://ropsten.infura.io/v3/9341cea07e634c21be9d5a5ccb892db5"
+	backendURL := "https://ropsten.infura.io/v3/7c0fc2888a824c62a3651fd446c8f989"
 
 	// customerPrivateKey private key used to control Customer's funds
 	// Note: this is  written down for demonstration purpose only

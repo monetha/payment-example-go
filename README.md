@@ -33,7 +33,6 @@ Install dependencies:
 
     make dependencies
 
-
 After dependencies are installed you can start the examples
 
 ### Running examples
@@ -47,8 +46,9 @@ All examples are run with Test Customer and Merchant addresses. We've provided p
 | Customer Address | [0xdF8c3E2c8506F67705acB0a4dCa28Cf44934B511](https://ropsten.etherscan.io/address/0xdF8c3E2c8506F67705acB0a4dCa28Cf44934B511) |
 
 We are using Infura.io JSON RPC in the provided examples in order to execute transaction on a chain. Feel free to change `backendURL` variable to any JSON RPC node you want.
+
 ```golang
-backendURL := "https://ropsten.infura.io/v3/9341cea07e634c21be9d5a5ccb892db5"
+backendURL := "https://ropsten.infura.io/v3/7c0fc2888a824c62a3651fd446c8f989"
 ```
 
 **Note**: Currently all PaymentProcessor contract instances are provided by Monetha. Contact [team@monetha.io](mailto:team@monetha.io) in case if you would like to have your own instance deployed. 
@@ -61,14 +61,11 @@ go run order_initiated_by_customer/main.go
 
 Short description of what is going on
 
-  - Customer initiates the order
-  - Customer pays for the Order
-  - Merchant verifies if Order was paid
-  - Merchant processes the payment after service was provided
-  - Merchant withdraws funds from MerchantWallet to his Address
-
-
-
+- Customer initiates the order
+- Customer pays for the Order
+- Merchant verifies if Order was paid
+- Merchant processes the payment after service was provided
+- Merchant withdraws funds from MerchantWallet to his Address
 
 ### Example flow where Merchant initiates the purchase
 
@@ -78,12 +75,8 @@ go run order_initiated_by_merchant/main.go
 
 Short description of what is going on
 
-  - Merchant initiates the order and provides Customer with information to pay
-  - Customer pays for the Order
-  - Merchant verifies if Order was paid
-  - Merchant processes the payment after service was provided
-  - Merchant withdraws funds from MerchantWallet to his Address
-  
-  
-
-
+- Merchant initiates the order and provides Customer with information to pay
+- Customer pays for the Order
+- Merchant verifies if Order was paid
+- Merchant processes the payment after service was provided
+- Merchant withdraws funds from MerchantWallet to his Address
