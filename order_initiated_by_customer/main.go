@@ -12,7 +12,7 @@ import (
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/ethclient"
 	eth "github.com/monetha/go-ethereum"
-	"github.com/monetha/payment-example/utils"
+	"github.com/monetha/payment-example-go/utils"
 	"github.com/monetha/payment-go-sdk/processor"
 	"github.com/monetha/payment-go-sdk/wallet"
 )
@@ -35,7 +35,7 @@ func main() {
 
 	// merchantPrivateKey private key used to control Customer's funds
 	// Note: this is  written down for demonstration purpose only
-	merchantPrivateKey := "ad6c05a5d77f993cf6c23eab52c6b9db7894dabf5647df63155d3e66280c2dc3" // customerAccount public address: 0xdF8c3E2c8506F67705acB0a4dCa28Cf44934B511
+	merchantPrivateKey := "ad6c05a5d77f993cf6c23eab52c6b9db7894dabf5647df63155d3e66280c2dc3" // merchantAccount public address: 0xdF8c3E2c8506F67705acB0a4dCa28Cf44934B511
 
 	processorContractAddress := common.HexToAddress(paymentProcessorContractAddress)
 
