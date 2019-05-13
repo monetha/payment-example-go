@@ -4,7 +4,7 @@
   - [Build](#build)
   - [Running examples](#running-examples)
     - [Example flow where Customer initiates the purchase](#example-flow-where-customer-initiates-the-purchase)
-  - [Example flow where Merchant initiates the purchase](#example-flow-where-merchant-initiates-the-purchase)
+    - [Example flow where Merchant initiates the purchase](#example-flow-where-merchant-initiates-the-purchase)
 
 ## Intro
 
@@ -75,7 +75,7 @@ Step by step instructions on what is being achieved in the example
 - Merchant processes the payment after service was provided
 - Merchant withdraws funds from MerchantWallet to his Address
 
-### Example flow where Merchant initiates the purchase
+#### Example flow where Merchant initiates the purchase
 
 ```bash
 go run order_initiated_by_merchant/main.go
